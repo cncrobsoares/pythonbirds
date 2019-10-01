@@ -1,5 +1,4 @@
-320767
-https://github.com/cncrobsoares/pythonbirds.git
+"""
 
 Você deve criar uma classe carro que vai possuir
 dois atributos compostos por outras duas classes:
