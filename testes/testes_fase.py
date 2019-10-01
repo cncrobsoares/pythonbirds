@@ -180,10 +180,10 @@ class FaseTestes(TestCase):
         self.assertTrue(passaros[1].foi_lancado())
 
     def teste_intervalo_de_colisao_padrão(self):
-        '''
+        """
         Método que testa se o intervalo de colisão da Fase é repassado aos
         atores. Padrão de intervalo é 1
-        '''
+        """
         fase = Fase()
         passaro = PassaroFake(1, 1)
         fase.adicionar_passaro(passaro)
@@ -198,10 +198,10 @@ class FaseTestes(TestCase):
         self.assertEqual(1, porco.intervalo_colisao)
 
     def teste_intervalo_de_colisao_nao_padrao(self):
-        '''
+        """
         Método que testa se o intervalo de colisão da Fase é repassado aos
         atores. valor testado: 31
-        '''
+        """
         fase = Fase(30)
         passaro = PassaroFake(1, 1)
         fase.adicionar_passaro(passaro)
